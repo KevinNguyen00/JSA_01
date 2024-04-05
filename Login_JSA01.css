@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://cdn.dribbble.com/users/1425486/screenshots/8976687/media/4b0fc5f8b42d296ab70ee72b9b4046e5.gif);
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgba(87, 165, 255, 0.3); 
+    color: rgba(0, 0, 0, 1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+h2 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+#Acc {
+
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+
+}
+
+#Pass {
+
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+
+}
+
+button {
+
+    width: 95%;
+    padding: 10px;
+    background-color: rgba(46, 138, 138, 0.3    ); 
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+button :hover {
+
+    background-color: rgb(78, 116, 255);
+
+}
+
+p {
+
+    text-align: end;
+    font-size: medium;
+    color: #ffffff;
+    padding: 1px;
+
+}

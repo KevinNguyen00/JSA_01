@@ -1,0 +1,83 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.dribbble.com/users/1425486/screenshots/8976687/media/4b0fc5f8b42d296ab70ee72b9b4046e5.gif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: 100%;
+}
+
+form {
+
+    background-color: rgba(87, 165, 255, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    border-radius: 10px;
+    border: 0px;
+}
+
+label {
+
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+input {
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+select {
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+button {
+
+    background-color: rgba(78, 116, 255, 0.3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 50px;
+    text-align: center;
+    color: aliceblue;
+    justify-content: end;
+}
+
+button:hover {
+
+    background-color: rgb(78, 116, 255)
+
+}
+
+h2{
+
+    color: aliceblue;
+    text-align: center;
+
+}
+
+label,input{
+
+    color: rgb(0, 0, 0);
+    
+}

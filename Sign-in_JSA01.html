@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <script src="https://kit.fontawesome.com/666b5872f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Sign-in_JSA01.css">
+</head>
+
+<body>
+    <form>
+        <h2>Đăng Ký</h2>
+        <label for="username">Tên đăng nhập:</label>
+        <input type="text" id="username" name="username" required placeholder="Tên đăng nhập">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Nhập gmai của bạn">
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Nhập số điện thoại của bạn">
+
+        <label for="gender">Giới tính:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Nam &#x2642;</option>
+            <option value="female">Nữ &#x2640;</option>
+        </select>
+
+        <label for="password">Mật khẩu:</label>
+        <input style="color: black;" type="password" id="password" name="password" required  placeholder="Nhập mật khẩu của bạn">
+
+        <label for="confirmPassword">Nhập lại mật khẩu:</label>
+        <input style="color: black;" type="password" id="confirmPassword" name="confirmPassword" required placeholder="Nhập lại mật khẩu của bạn">
+
+        <button type="button" onclick="validateForm()">Đăng Ký</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var gender = document.getElementById('gender').value;
+            var password = document.getElementById('password').value;
+            var confirmPassword = document.getElementById('confirmPassword').value;
+            if (username === "" || email === "" || phone === "" || gender === "" || password === "" || confirmPassword === "") {
+                alert("Vui lòng điền đầy đủ thông tin.");
+                return;
+            }
+
+            var usernameRegex = /^[a-zA-Z0-9]+$/;
+            if (!usernameRegex.test(username)) {
+                alert("Tên đăng nhập chỉ được chứa chữ và số.");
+                return;
+            }
+
+            var phoneRegex = /^[0-9]+$/;
+            if (!phoneRegex.test(phone)) {
+                alert("Số điện thoại phải chứa toàn số.");
+                return;
+            }
+
+            var emailRegex = /^[a-zA-Z0-9._-]+@gmail\.com$/;
+            if (!emailRegex.test(email)) {
+                alert("Email phải có định dạng đúng với @gmail.com.");
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert("Mật khẩu và nhập lại mật khẩu phải giống nhau.");
+                return;
+            }
+
+            alert("Đăng ký thành công! Chào mừng bạn đến với hệ sinh thái của Samsung");
+            window.location.href = "Login_JSA01.html";
+        }
+    </script>
+</body>
+</html>

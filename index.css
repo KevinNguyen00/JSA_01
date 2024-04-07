@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.868);
+    display: flex;
+    justify-content: space-between;
+}
+#menu_header a {
+  margin-top: 32px;
+  text-decoration: none;
+}
+#menu_header h5 {
+    margin-top: 35px;
+}
+#brandname_header img {
+    width: 175px;
+    /* margin-top: 50px; */
+}
+#menu_header a{
+    color: rgba(255, 255, 255, 0.868);
+    transition: color 0.2s ease;
+  }
+  
+  #menu_header h5:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  #icon_header :hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+#text_QC {
+  text-align: center;
+    margin-top: 30px;
+}
+#menu_header {
+    display: flex;
+    width: 800px;
+    font-size: x-large;
+    justify-content: space-between;
+    /* margin-left: -50px; */
+}
+.thongtinsanpham h5 {
+    margin-bottom: 20px;
+}
+.giasanpham {
+    margin-top: 10px;
+  }
+.giasanpham h6 {
+    margin-top: 5px;
+}
+.support_and_enterprise a {
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+.support_and_enterprise {
+    display: flex;
+    width: 225px;
+    font-size: x-large;
+    margin-left: 32px;
+    justify-content: space-around;
+}
+.support_and_enterprise :hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+  }
+#support {
+  margin-top: 32px;
+  
+}
+#enterprise {
+  margin-top: 32px;
+}
+#icon_header i {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    margin-right: 30px;
+    display: inline-flex;
+    font-size: large;
+    margin-top: 39px;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+   .slideshow-container img {
+    width: 1503px;
+    height: 300px;
+  } 
+  .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+   
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+.container {
+    width: 1503px;  
+}
+#product {
+  
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding: 2.5em 0;
+    justify-content: space-around;
+}
+.img_sanpham img:hover{
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+
+}
+.img_sanpham img {
+    width: 230px;
+    object-fit: cover;
+    position: absolute;
+    top: 6;
+    left: 25;
+    transition: all 1s cubic-bezier(0.31, 0, 0.99, 2.69);
+}
+.img_sanpham {
+    max-width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    height: 15em;
+    box-shadow: 1em 2em 2.5em rgba(41, 126, 224, 0.066);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sanpham {
+    max-width: 18em;
+    max-height: 25em;
+    padding: 3em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.7s;
+    max-width: calc(125% - 1em);
+}
+.thongtinsanpham{
+    width: 250px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+.text{
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+  cursor: pointer;
+
+}
+.text :hover{
+  color: rgb(101, 101, 101);
+  cursor: pointer;
+
+}
+
+#footed {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #tennhanhang_footed {
+    width: 250px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  
+  #information {
+    align-items: center;
+    font-size: medium ;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: center;
+  }
+  #information a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 500;
+
+  }
+  #information h5 {
+    margin-bottom: 10px;
+  }
+  #map{
+    margin-right: 10px;
+  }
+  #map iframe {
+    width: 250px;
+    height: 230px;
+    border-radius:10px;
+  }

@@ -30,12 +30,12 @@
     transition: color 0.2s ease;
   }
   
-  #menu_header h5:hover {
-    color: rgb(255, 255, 255);
+  #menu_header a:hover {
+    color: rgb(94, 223, 243);
     cursor: pointer;
   }
   #icon_header :hover {
-    color: rgb(255, 255, 255);
+    color: rgb(102, 209, 255);
     cursor: pointer;
   }
 #text_QC {
@@ -71,7 +71,7 @@
     justify-content: space-around;
 }
 .support_and_enterprise :hover {
-    color: rgb(255, 255, 255);
+    color: rgb(84, 221, 255);
     cursor: pointer;
     text-decoration: none;
   }

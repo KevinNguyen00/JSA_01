@@ -14,13 +14,13 @@ let products = {
 
         {
             name: "Samsung Galaxy Gear S3",
-            price: "6.490.000đ - .490.000đ",
+            price: "8.490.000đ - 9.999.000đ",
             image: "https://img.upanh.tv/2024/03/22/GearS3-Classic.png"
         },
 
         {
             name: "Samsung Galaxy Gear S3 Frontier",
-            price: "780.000đ - 1.470.000đ",
+            price: "9.780.000đ - 10.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/GearS3Frontier.png"
         },
 
@@ -32,40 +32,40 @@ let products = {
 
         {
             name: "Samsung Galaxy Watch5",
-            price: "780.000đ - 1.470.000đ",
+            price: "3.780.000đ - 5.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/Concecpt1.png"
         },
 
         {
             name: "Samsung Galaxy Watch5 Pro",
-            price: "780.000đ - 1.470.000đ",
+            price: "5.780.000đ - 7.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/Watch5pro.png"
         },
 
 
         {
             name: "Samsung Galaxy Watch6",
-            price: "780.000đ - 1.470.000đ",
+            price: "5.780.000đ - 6.470.000đ",
             image: "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/10/637957702824459868_samsung-galaxy-watch5-lte-40mm-bac-4.jpg5.jpg"
         },
 
         {
             name: "Samsung Galaxy Watch Concept 2022",
-            price: "780.000đ - 1.470.000đ",
+            price: "1.780.000đ - 2.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/Concecpt1.png"
         },
         {
             name: "Samsung Galaxy Watch Concept 2023",
-            price: "780.000đ - 1.470.000đ",
+            price: "2.780.000đ - 3.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/Gear1.png"
         },
         {
             name: "Samsung Galaxy Watch Concept 2024",
-            price: "780.000đ - 1.470.000đ",
+            price: "3.780.000đ - 4.470.000đ",
             image: "https://img.upanh.tv/2024/03/22/Concecpt2.png"
         },
         {
-            name: "Samsung Galaxy Fit2",
+            name: "Samsung Galaxy Fit 2 2021",
             price: "780.000đ - 1.470.000đ",
             image: "https://cdn.tgdd.vn/Products/Images/7077/231312/samsung-galaxy-fit2-den-01.jpeg"
         },
